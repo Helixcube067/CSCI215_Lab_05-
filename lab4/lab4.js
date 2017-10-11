@@ -8,14 +8,14 @@ var divNode = document.getElementById("fiddle");
 // ---------------------------------------------
 // Task 2
 // ---------------------------------------------
-var pNode = document.createElement("P");
+var pNode = document.createElement("p");
 var pTextNode = document.createTextNode("CSCI 215: Lab 5 Todo");
 pNode.appendChild(pTextNode);
 divNode.appendChild(pNode);
 // ---------------------------------------------
 // Task 3
 // ---------------------------------------------
-var hrNode = document.createElement("HR");
+var hrNode = document.createElement("hr");
 divNode.appendChild(hrNode);
 
 // ---------------------------------------------
